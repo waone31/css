@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+fieldset.navbar {
+    /* background-image: url("https://i.ibb.co/WWfwKzq/Clipart-Key-2466882.png"); */
+    width: 60%;
+    margin: auto;
+    border-style: none;
+    padding-bottom: -10px;
+}
+
+fieldset.form {
+    background-repeat: repeat-y;
+    background-image: url("https://i.ibb.co/WWfwKzq/Clipart-Key-2466882.png");
+    border-style: unset;
+    width: 60%;
+    margin: auto;
+    font-family: calibri;
+    background-position: right;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+input[type=text],
+select.status,
+textarea {
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px solid #eee;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+input,
+select.status,
+textarea {
+    width: 50%;
+    font-family: calibri;
+    font-size: inherit;
+    padding-bottom: 10px;
+}
+
+select.pilih {
+    width: 50%;
+    font-family: calibri;
+    font-size: inherit;
+    padding-bottom: 10px;
+}
+
+select.status {
+    width: 50%;
+}
+
+input.submit {
+    padding: 10px;
+    border: black;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 15%;
+    font-family: calibri;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+input.submit:hover {
+    background-color: #e14a14;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+input.reset {
+    padding: 10px;
+    border: black;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 15%;
+    font-family: calibri;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+input.reset:hover {
+    background-color: #e14a14;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+form {
+    text-align: left;
+    margin: auto;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: calibri;
+}
+
+li {
+    float: left;
+    font-family: calibri;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: calibri;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: calibri;
+}
